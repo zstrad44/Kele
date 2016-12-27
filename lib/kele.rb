@@ -1,8 +1,10 @@
 require "httparty"
 require "json"
+require_relative "kele/roadmap"
 
 class Kele
   include HTTParty
+  include Roadmap
 
   def initialize(email, password)
 
@@ -27,5 +29,4 @@ class Kele
     JSON.parse(receive.body).to_a
 
   end
-
 end
