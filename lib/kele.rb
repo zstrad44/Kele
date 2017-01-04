@@ -58,6 +58,6 @@ class Kele
          "assignment_commit_link": assignment_commit_link,
          "checkpoint_id": checkpoint_id,
          "comment": comment,
-         "enrollment_id": @enrollment_id })
+         "enrollment_id": enrollment_id })
   end
 end
